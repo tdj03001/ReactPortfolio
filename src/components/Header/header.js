@@ -22,11 +22,11 @@ export default function Header() {
             <a id="Contact" className="nav-link" href="contact.html" title="Contact">Contact</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="https://github.com/tdj03001" title="gitHub" target="_blank">GitHub</a>
+            <a className="nav-link" href="https://github.com/tdj03001" title="gitHub" target="_blank" rel="noopener noreferrer">GitHub</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="https://www.linkedin.com/in/tyler-jenkins-94204a6/" title="LinkedIn"
-              target="_blank">LinkedIn</a>
+              target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="../../../Resume- Tyler Jenkins.pdf" title="resume"
