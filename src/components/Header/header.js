@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from 'react-router-dom';
 import "./style.css";
 
 export default function Header() {
@@ -12,14 +13,13 @@ export default function Header() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a id="About" className="nav-link" href="index.html" title="About">About <span
-              className="sr-only">(current)</span></a>
+            <NavLink to="/" id="About" className="nav-link" title="About">About</NavLink>
           </li>
           <li className="nav-item">
-            <a id="Portfolio" className="nav-link" href="portfolio.html" title="Portfolio">Portfolio</a>
+            <NavLink to="/Portfolio" id="Portfolio" className="nav-link" title="Portfolio">Portfolio</NavLink>
           </li>
           <li className="nav-item">
-            <a id="Contact" className="nav-link" href="contact.html" title="Contact">Contact</a>
+            <NavLink to="/Contact" id="Contact" className="nav-link" title="Contact">Contact</NavLink>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="https://github.com/tdj03001" title="gitHub" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -34,6 +34,6 @@ export default function Header() {
           </li>
         </ul>
       </div>
-    </nav>
+    </nav >
   );
 }
