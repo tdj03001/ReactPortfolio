@@ -19,7 +19,7 @@ export default function About() {
 
         <div className="row">
           <div className="col-md-2">
-            <img src={ProfilePic} className="img-fluid" height="190px" width="145px" alt="profile"></img>
+            <img src={ProfilePic} className="img-fluid" alt="profile"></img>
           </div>
           <div className="col-md-9 bio">
             <p>I am a software development program manager with over 10 years of experience directing teams of business
