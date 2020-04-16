@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const sendMail = require("./mail");
 const path = require("path");
+require("dotenv").config();
 
 const PORT = process.env.PORT || 8080;
 
