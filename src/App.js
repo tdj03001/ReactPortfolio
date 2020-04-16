@@ -16,6 +16,7 @@ class App extends Component {
           <Header />
           <Switch>
             <Route path="/" component={About} exact />
+            <Route path="/About" component={About} exact />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/contact" component={Contact} />
           </Switch>
@@ -25,7 +26,5 @@ class App extends Component {
     );
   }
 }
-
-
 
 export default App;
