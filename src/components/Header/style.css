@@ -6,10 +6,6 @@
   text-align: right;
 }
 
-@media only screen and (max-width: 600px) {
-   
-}
-
 h1 {
   float: left;
   background-color: #4aaaa5;
@@ -26,4 +22,8 @@ h1 {
   text-align: center;
   font-size: 25px;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+@media only screen and (max-width: 600px) {
+   
 }
