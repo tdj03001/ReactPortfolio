@@ -18,7 +18,6 @@ class App extends Component {
             <Route path="/" component={About} exact />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/contact" component={Contact} />
-            {/* <Route component={Error} /> */}
           </Switch>
           <Footer />
         </div>
@@ -28,13 +27,5 @@ class App extends Component {
 }
 
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <Header />
-//       <Footer />
-//     </div>
-//   );
-// }
 
 export default App;
