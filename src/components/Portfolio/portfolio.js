@@ -28,14 +28,14 @@ export default function Portfolio() {
         <div class="row">
           <div class="col-md-5">
             <div id="dayplanner" class="card">
-              <a href="https://tdj03001.github.io/UPenn-Week-5-Homework-DayPlanner/" target="_blank" rel="noopener noreferrer"><img id="dayplannerimg"
+              <a href="https://tdj03001.github.io/Day-Planner/" target="_blank" rel="noopener noreferrer"><img id="dayplannerimg"
                 src={DayPlanner} class="card-img-top image-fluid" height="240px"
                 alt="day planner"></img></a>
               <div class="card-body">
-                <a href="https://tdj03001.github.io/UPenn-Week-5-Homework-DayPlanner/" target="_blank" rel="noopener noreferrer">
+                <a href="https://tdj03001.github.io/Day-Planner/" target="_blank" rel="noopener noreferrer">
                   <p class="card-text">Day Planner App</p>
                 </a>
-                <a href="https://github.com/tdj03001/UPenn-Week-5-Homework-DayPlanner" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tdj03001/Day-Planner" target="_blank" rel="noopener noreferrer">
                   <p class="card-text">Day Planner GitHub</p>
                 </a>
               </div>
@@ -44,14 +44,14 @@ export default function Portfolio() {
 
           <div class="col-md-7">
             <div id="weatherDashboard" class="card">
-              <a href="https://tdj03001.github.io/UPenn-Week-6-Homework-WeatherDashboard/" target="_blank" rel="noopener noreferrer"><img
+              <a href="https://tdj03001.github.io/Weather-Dashboard/" target="_blank" rel="noopener noreferrer"><img
                 src={WeatherDashboard} class="card-img-top image-fluid" height="240px"
                 alt="weather dashboard"></img></a>
               <div class="card-body">
-                <a href="https://tdj03001.github.io/UPenn-Week-6-Homework-WeatherDashboard/" target="_blank" rel="noopener noreferrer">
+                <a href="https://tdj03001.github.io/Weather-Dashboard/" target="_blank" rel="noopener noreferrer">
                   <p class="card-text">Weather Dashboard App</p>
                 </a>
-                <a href="https://github.com/tdj03001/UPenn-Week-6-Homework-WeatherDashboard" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tdj03001/Weather-Dashboard" target="_blank" rel="noopener noreferrer">
                   <p class="card-text">Weather Dashboard GitHub</p>
                 </a>
               </div>
@@ -69,7 +69,7 @@ export default function Portfolio() {
                 <a href="https://warm-basin-45502.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                   <p class="card-text">Eat Da Burger App</p>
                 </a>
-                <a href="https://github.com/tdj03001/UPenn-Week-13-Homework-EatDaBurger" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tdj03001/EatDaBurger" target="_blank" rel="noopener noreferrer">
                   <p class="card-text">Eat Da Burger GitHub</p>
                 </a>
               </div>
@@ -84,7 +84,7 @@ export default function Portfolio() {
                 <a href="https://upennnotetaker.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                   <p class="card-text"> Note Taker App</p>
                 </a>
-                <a href="https://github.com/tdj03001/UPenn-Week-11-Homework-ExpressNoteTaker" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tdj03001/Note-Taker" target="_blank" rel="noopener noreferrer">
                   <p class="card-text"> Note Taker GitHub</p>
                 </a>
               </div>
