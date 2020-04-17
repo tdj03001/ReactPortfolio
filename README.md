@@ -16,3 +16,10 @@ https://protected-shore-39336.herokuapp.com/
 ### GitHub Repo
 
 https://github.com/tdj03001/reactportfolio
+
+
+### Sources
+
+https://blog.mailtrap.io/react-contact-form/
+https://itnext.io/4-solutions-to-run-multiple-node-js-or-npm-commands-simultaneously-9edaa6215a93
+UPenn Week 20 Activity 22 Mini Project
