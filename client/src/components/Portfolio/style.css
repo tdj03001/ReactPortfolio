@@ -1,0 +1,62 @@
+.container-fluid {
+  margin-top: 20px;
+}
+
+h4 {
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.divider {
+  height: 3px;
+  background-color: #999;
+  margin-bottom: 20px;
+}
+
+
+.container-fluid {
+  min-height: 1000px;
+  margin-bottom: 100px;
+  background: url("https://ridenow.sg/wp-content/uploads/2017/10/professional-images-for-website-background-13.jpg");
+  background-size: cover;
+  clear: both;
+}
+
+.card {
+  width: 18rem;
+}
+.card-text {
+  text-decoration: underline;
+}
+
+#dayplanner {
+  margin-top: 50px;
+}
+
+#weatherDashboard {
+  margin-top: 50px;
+}
+
+#eatDaBurger {
+  margin-top: 50px;
+}
+
+#expressNoteTaker {
+  margin-top: 50px;
+}
+
+#billboard {
+  margin-top: 50px;
+}
+
+#rockpaperscissorscard {
+  margin-top: 50px;
+}
+
+#vacationer {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+}
