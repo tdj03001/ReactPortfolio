@@ -48,7 +48,7 @@ h4 {
 
 }
 
-body {
+.container-fluid {
   min-height: 600px;
   margin-bottom: 100px;
   background: url("https://ridenow.sg/wp-content/uploads/2017/10/professional-images-for-website-background-13.jpg");
@@ -56,7 +56,7 @@ body {
   clear: both;
 }
 
-.container {
+.container-fluid {
   margin-top: 20px;
 }
 

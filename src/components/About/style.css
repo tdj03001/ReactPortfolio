@@ -1,12 +1,13 @@
-body {
-  min-height: 600px;
+.container-fluid {
+  min-height: 1000px;
   margin-bottom: 100px;
+  text-align: left;
   background: url("https://ridenow.sg/wp-content/uploads/2017/10/professional-images-for-website-background-13.jpg");
   background-size: cover;
   clear: both;
 }
 
-.container {
+.container-fluid {
   margin-top: 20px;
 }
 
