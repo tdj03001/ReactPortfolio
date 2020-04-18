@@ -32,7 +32,7 @@ router.post('/send', (req, res, next) => {
   const mail = {
     from: name,
     to: 'tylerdjenkins123@gmail.com',
-    subject: 'New Message from Contact Form',
+    subject: 'New Message from Contact Form on react portfolio',
     text: content
   }
 
