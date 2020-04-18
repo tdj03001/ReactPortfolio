@@ -17,7 +17,8 @@ class Contact extends React.Component {
     console.log(this.state);
     axios({
       method: "POST",
-      url: process.env.PORT || "http://localhost:3002/send",
+      url: "https://protected-shore-39336.herokuapp.com/send",
+      // url: "http://localhost:3002/send",
       data: this.state
     }).then((response) => {
       if (response.data.status === 'success') {
