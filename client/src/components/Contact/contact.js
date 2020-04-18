@@ -14,10 +14,9 @@ class Contact extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    console.log(this.state);
     axios({
       method: "POST",
-      url: "https://protected-shore-39336.herokuapp.com/send",
+      url: "/send",
       // url: "http://localhost:3002/send",
       data: this.state
     }).then((response) => {
