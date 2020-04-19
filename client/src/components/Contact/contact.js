@@ -14,7 +14,7 @@ class Contact extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    const API_ENDPOINT = process.env.REACT_APP_API_ENDPOINT || 'http://production';
+    const API_ENDPOINT = process.env.REACT_APP_API_ENDPOINT || 'http://localhost:3002';
     axios({
       method: "POST",
       url: `${API_ENDPOINT}/send`,
