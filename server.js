@@ -3,6 +3,7 @@ const router = express.Router();
 const nodemailer = require('nodemailer');
 const cors = require('cors');
 const PORT = process.env.PORT || 3001;
+const path = require("path");
 let app = express();
 require("dotenv").config();
 
@@ -61,7 +62,7 @@ app.use(cors())
 app.use('/', router)
 // app.listen(3002)
 app.get("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+  res.sendFile(path.join(__dirname, "./client/index.html"));
 });
 
 app.listen(PORT, function () {
