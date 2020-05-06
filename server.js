@@ -60,9 +60,9 @@ app.use(express.static('client/public'));
 app.use(cors())
 app.use('/', router)
 // app.listen(3002)
-app.get("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "./client/public/index.html"));
-});
+// app.get("*", function (req, res) {
+//   res.sendFile(path.join(__dirname, "./client/public/index.html"));
+// });
 
 app.listen(PORT, function () {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
