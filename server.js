@@ -54,8 +54,7 @@ router.post('/send', (req, res, next) => {
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static('public'));
-// app.use(express.static("client/build"));
+app.use(express.static('client/public'));
 
 
 app.use(cors())
