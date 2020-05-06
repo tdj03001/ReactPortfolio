@@ -5,10 +5,6 @@ const cors = require('cors');
 const app = express();
 require("dotenv").config();
 
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-app.use(express.static("public"));
-
 const transport = {
   host: 'smtp.gmail.com',
   port: 587,
@@ -53,6 +49,10 @@ router.post('/send', (req, res, next) => {
     }
   })
 })
+
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.static('public'));
 
 
 app.use(cors())
