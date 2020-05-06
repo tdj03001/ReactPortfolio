@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const nodemailer = require('nodemailer');
 const cors = require('cors');
-const PORT = process.env.PORT || 3001;
 const path = require("path");
 let app = express();
 require("dotenv").config();
@@ -59,11 +58,8 @@ app.use(express.static('client/public'));
 
 app.use(cors())
 app.use('*', router)
-// app.listen(3002)
+app.listen(3002)
 // app.get("*", function (req, res) {
 //   res.sendFile(path.join(__dirname, "./client/public/index.html"));
 // });
 
-app.listen(PORT, function () {
-  console.log(`🌎 ==> API server now on port ${PORT}!`);
-});
