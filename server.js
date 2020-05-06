@@ -4,6 +4,8 @@ const nodemailer = require('nodemailer');
 const cors = require('cors');
 require("dotenv").config();
 
+app.use(express.static("public"));
+
 const transport = {
   host: 'smtp.gmail.com',
   port: 587,
