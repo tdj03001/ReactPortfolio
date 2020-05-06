@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const nodemailer = require('nodemailer');
 const cors = require('cors');
+const PORT = process.env.PORT || 3001;
 let app = express();
 require("dotenv").config();
 
@@ -53,8 +54,16 @@ router.post('/send', (req, res, next) => {
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
+// app.use(express.static("client/build"));
 
 
 app.use(cors())
 app.use('/', router)
-app.listen(3002)
+// app.listen(3002)
+app.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
+
+app.listen(PORT, function () {
+  console.log(`🌎 ==> API server now on port ${PORT}!`);
+});
