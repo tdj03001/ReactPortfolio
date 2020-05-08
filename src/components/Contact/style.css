@@ -1,0 +1,65 @@
+h4 {
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.divider {
+  height: 3px;
+  background-color: #999;
+}
+
+#namelabel {
+  margin-top: 20px;
+  font-weight: 600;  
+}
+
+#namefield {
+  margin-top: -10px;
+  margin-bottom: 25px;
+  width: 400px;
+}
+
+#emailLabel {
+  font-weight: 600;
+}
+
+#emailfield {
+  margin-top: -10px;
+  margin-bottom: 25px;
+  width: 400px;
+}
+
+#messageLabel {
+  font-weight: 600;
+}
+
+#messagefield {
+  margin-top: -10px;
+  margin-bottom: 25px;
+  width: 400px;
+  height: 100px;
+}
+
+#submitbutton {
+  
+  background-color: #4aaaa5;
+  color: #eee;
+  margin-bottom: 40px;
+
+}
+
+.container-fluid {
+  min-height: 600px;
+  margin-bottom: 100px;
+  background: url("https://ridenow.sg/wp-content/uploads/2017/10/professional-images-for-website-background-13.jpg");
+  background-size: cover;
+  clear: both;
+}
+
+.container-fluid {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+}

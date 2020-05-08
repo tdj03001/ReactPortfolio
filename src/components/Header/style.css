@@ -1,0 +1,29 @@
+.navbar {
+  font-family: Nunito, Roboto, Montserrat, Alata;
+}
+
+.nav-item {
+  text-align: right;
+}
+
+h1 {
+  float: left;
+  background-color: #4aaaa5;
+  color: white;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+@media only screen and (max-width: 600px) {
+   
+}
