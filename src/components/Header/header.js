@@ -29,7 +29,7 @@ export default function Header() {
               target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="../../../Resume-TylerJenkins.pdf" title="resume"
+            <a className="nav-link" href="../../../Resume-TylerJenkins.pdf" download title="resume"
               target="_blank">Resume</a>
           </li>
         </ul>
